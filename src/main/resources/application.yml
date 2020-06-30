@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: micronautGraphqlPoc
+
+graphql:
+  enabled: true
+  path: /graphql
+  graphiql:
+    enabled: true
+    path: /graphiql
+    page-title: GraphiQL
